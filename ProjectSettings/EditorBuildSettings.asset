@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Car_Sim_Test/Scenes/1.Test_Unity_Fun.unity
+    guid: 9f1442edb017dcd41b46664c8d02c2b4
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: 68ea3e139cf8fdd43af67fbc409c9c8a, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 42abfa10125fe204e93847fd7459abb4, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: c5f7c15cff5102d4f9607400d850a6f2, type: 2}
