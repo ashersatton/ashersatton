@@ -2,5 +2,6 @@
 Car Simalation Voltride
 
 About
+Проект симулятора вождения по городу.
 
 ...
