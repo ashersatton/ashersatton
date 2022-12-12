@@ -421,6 +421,7 @@ GameObject:
   - component: {fileID: 88596093}
   - component: {fileID: 88596094}
   - component: {fileID: 88596095}
+  - component: {fileID: 88596096}
   m_Layer: 0
   m_Name: TrafficLights
   m_TagString: Untagged
@@ -472,6 +473,21 @@ MonoBehaviour:
   redLight: []
   yellowLight: []
   greenLight: []
+--- !u!114 &88596096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 88596092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c61671019bc15a45a6bff330450af66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerCarBody: {fileID: 0}
+  controle: 0
+  currentControl: 0
 --- !u!1 &91467747
 GameObject:
   m_ObjectHideFlags: 0
@@ -3259,7 +3275,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 414460, guid: 4a383ea4a8bde554a81e12745897d28a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2992.34
+      value: -3062.534
       objectReference: {fileID: 0}
     - target: {fileID: 414460, guid: 4a383ea4a8bde554a81e12745897d28a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3267,7 +3283,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 414460, guid: 4a383ea4a8bde554a81e12745897d28a, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1043.12
+      value: 1068.8181
       objectReference: {fileID: 0}
     - target: {fileID: 414460, guid: 4a383ea4a8bde554a81e12745897d28a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4894,6 +4910,66 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+--- !u!1 &1334286580
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1334286583}
+  - component: {fileID: 1334286582}
+  - component: {fileID: 1334286581}
+  m_Layer: 0
+  m_Name: Speed_Test
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1334286581
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334286580}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c61671019bc15a45a6bff330450af66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PlayerCarBody: {fileID: 822382106}
+  controle: 0
+  currentControl: 1
+--- !u!65 &1334286582
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334286580}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 10.050198, y: 12.264282, z: 64.32636}
+  m_Center: {x: -2.305295, y: 3.1227684, z: -31.710121}
+--- !u!4 &1334286583
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1334286580}
+  m_LocalRotation: {x: -0, y: -0.8023324, z: -0, w: -0.59687746}
+  m_LocalPosition: {x: -2991.722, y: 10.329, z: 1044.5443}
+  m_LocalScale: {x: 1, y: 0.9842997, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 466.707, z: 0}
 --- !u!1 &1334877319
 GameObject:
   m_ObjectHideFlags: 0
